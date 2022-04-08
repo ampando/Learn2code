@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  const crypto = parseInt(prompt("What Type of Tech?"));
+$("form#techCareer").submit(function(event){  
+  event.preventDefault();
 
-  if (crypto >= 21) {
-    $('#drinks').show();
-  }
+  $("#output").text(result);
+  });
 });
